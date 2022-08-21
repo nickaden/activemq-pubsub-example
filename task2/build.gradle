@@ -1,20 +1,6 @@
 group 'by.nick'
 version '1.0-SNAPSHOT'
 
-repositories {
-    mavenCentral()
-}
-
 dependencies {
-    compileOnly 'org.projectlombok:lombok:1.18.24'
-    annotationProcessor 'org.projectlombok:lombok:1.18.24'
-    //Spring Boot
-    implementation 'org.springframework.boot:spring-boot-starter-web:2.7.2'
-    //Other
-    implementation 'org.apache.activemq:activemq-broker:5.17.1'
-    implementation 'com.fasterxml.jackson.core:jackson-databind:2.13.3'
-}
-
-test {
-    useJUnitPlatform()
+    implementation project(':common')
 }

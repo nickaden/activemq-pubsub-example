@@ -1,2 +1,6 @@
 rootProject.name = 'activemq-pubsub-example'
+include 'task1'
+include 'task2'
+include 'common'
+include 'task3'
 

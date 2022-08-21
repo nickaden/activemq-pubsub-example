@@ -1,4 +1,4 @@
-package by.nick.activemq.example.task1;
+package by.nick.activemq.example.task1.config;
 
 public class TopicConstants {
 

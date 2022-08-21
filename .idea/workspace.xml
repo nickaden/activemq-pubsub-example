@@ -4,25 +4,286 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d4d7ba6-7352-47e4-8ca8-7261fe90af0b" name="Changes" comment="" />
+    <list default="true" id="5d4d7ba6-7352-47e4-8ca8-7261fe90af0b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/0/f07866736216be0ee2aba49e392191aeae700a35" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/4/f4a01d6a4fcb971362ec00a83903fd3902f52164" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/common/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/by/nick/activemq/common/config/JMSBeanConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/by/nick/activemq/common/config/JMSBeanConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/resources/META-INF/spring.factories" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/resources/META-INF/spring.factories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task1/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/task1/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task1/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/task1/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task1/src/main/java/by/nick/activemq/example/task1/config/TopicConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/task1/src/main/java/by/nick/activemq/example/task1/config/TopicConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task1/src/main/java/by/nick/activemq/example/task1/durablesubscriber/DurableSubscriberStarter.java" beforeDir="false" afterPath="$PROJECT_DIR$/task1/src/main/java/by/nick/activemq/example/task1/durablesubscriber/DurableSubscriberStarter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task1/src/main/java/by/nick/activemq/example/task1/durablesubscriber/DurableTopicSubscriber.java" beforeDir="false" afterPath="$PROJECT_DIR$/task1/src/main/java/by/nick/activemq/example/task1/durablesubscriber/DurableTopicSubscriber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task1/src/main/java/by/nick/activemq/example/task1/listener/TopicMessageListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/task1/src/main/java/by/nick/activemq/example/task1/listener/TopicMessageListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task1/src/main/java/by/nick/activemq/example/task1/publisher/PublisherStarter.java" beforeDir="false" afterPath="$PROJECT_DIR$/task1/src/main/java/by/nick/activemq/example/task1/publisher/PublisherStarter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task1/src/main/java/by/nick/activemq/example/task1/subscriber/SubscriberStarter.java" beforeDir="false" afterPath="$PROJECT_DIR$/task1/src/main/java/by/nick/activemq/example/task1/subscriber/SubscriberStarter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task1/src/main/java/by/nick/activemq/example/task1/subscriber/TopicSubscriber.java" beforeDir="false" afterPath="$PROJECT_DIR$/task1/src/main/java/by/nick/activemq/example/task1/subscriber/TopicSubscriber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task2/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/task2/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task2/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/task2/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task2/src/main/java/by/nick/acrivemq/example/task2/config/JMSConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/task2/src/main/java/by/nick/acrivemq/example/task2/config/JMSConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task2/src/main/java/by/nick/acrivemq/example/task2/replier/Replier.java" beforeDir="false" afterPath="$PROJECT_DIR$/task2/src/main/java/by/nick/acrivemq/example/task2/replier/Replier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task2/src/main/java/by/nick/acrivemq/example/task2/replier/ReplierStarter.java" beforeDir="false" afterPath="$PROJECT_DIR$/task2/src/main/java/by/nick/acrivemq/example/task2/replier/ReplierStarter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task2/src/main/java/by/nick/acrivemq/example/task2/sender/Sender.java" beforeDir="false" afterPath="$PROJECT_DIR$/task2/src/main/java/by/nick/acrivemq/example/task2/sender/Sender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task2/src/main/java/by/nick/acrivemq/example/task2/sender/SenderScheduler.java" beforeDir="false" afterPath="$PROJECT_DIR$/task2/src/main/java/by/nick/acrivemq/example/task2/sender/SenderScheduler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task2/src/main/java/by/nick/acrivemq/example/task2/sender/SenderStarter.java" beforeDir="false" afterPath="$PROJECT_DIR$/task2/src/main/java/by/nick/acrivemq/example/task2/sender/SenderStarter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task3/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/task3/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task3/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/task3/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task3/src/main/java/by/nick/activemq/example/task3/config/VirtualTopicConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/task3/src/main/java/by/nick/activemq/example/task3/config/VirtualTopicConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task3/src/main/java/by/nick/activemq/example/task3/publisher/Publisher.java" beforeDir="false" afterPath="$PROJECT_DIR$/task3/src/main/java/by/nick/activemq/example/task3/publisher/Publisher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task3/src/main/java/by/nick/activemq/example/task3/publisher/PublisherStarter.java" beforeDir="false" afterPath="$PROJECT_DIR$/task3/src/main/java/by/nick/activemq/example/task3/publisher/PublisherStarter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task3/src/main/java/by/nick/activemq/example/task3/subscriber/Subscriber.java" beforeDir="false" afterPath="$PROJECT_DIR$/task3/src/main/java/by/nick/activemq/example/task3/subscriber/Subscriber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task3/src/main/java/by/nick/activemq/example/task3/subscriber/SubscriberStarter.java" beforeDir="false" afterPath="$PROJECT_DIR$/task3/src/main/java/by/nick/activemq/example/task3/subscriber/SubscriberStarter.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$/app">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/task1">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="activemq-pubsub-example" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="activemq-pubsub-example" type="f1a62948:ProjectNode" />
+                <item name="task1" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="activemq-pubsub-example" type="f1a62948:ProjectNode" />
+                <item name="task1" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="activemq-pubsub-example" type="f1a62948:ProjectNode" />
+                <item name="task1" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.24/a95c9f4bc8e3000f7b7adfdf5732b13cca5451e/lombok-1.18.24-sources.jar!/lombok/RequiredArgsConstructor.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2DLIoOvwEYbzW0KJrDZhrZXa2X6" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "11",
+    "last_opened_file_path": "C:/Personal/MOM/activemq-pubsub-example",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.26666668",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.annotationProcessors",
+    "spring.configuration.checksum": "dd11f22fc95f7cfcb40f3128756dab92"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Personal\MOM\activemq-pubsub-example\src\main\java\by\nick\activemq\example\task1\durablesubscriber" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Personal\MOM\activemq-pubsub-example\common\src\main\java" />
+      <recent name="C:\Personal\MOM\activemq-pubsub-example\common\src" />
+      <recent name="C:\Personal\MOM\activemq-pubsub-example\task1" />
+      <recent name="C:\Personal\MOM\activemq-pubsub-example\app" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="by.nick.activemq.common.config" />
+      <recent name="by.nick.acrivemq.example.task2.config" />
+      <recent name="by.nick.activemq.example.task1.publisher" />
+      <recent name="by.nick.activemq.example.task1.config" />
+      <recent name="by.nick.activemq.example.config" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.SubscriberStarter consumer 2">
+    <configuration name="ReplierStarter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="by.nick.acrivemq.example.task2.replier.ReplierStarter" />
+      <module name="activemq-pubsub-example.task2.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="by.nick.acrivemq.example.task2.replier.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SenderStarter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="by.nick.acrivemq.example.task2.sender.SenderStarter" />
+      <module name="activemq-pubsub-example.task2.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="by.nick.acrivemq.example.task2.sender.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DurableSubscriberStarter" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="activemq-pubsub-example.task1.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="by.nick.activemq.example.task1.durablesubscriber.DurableSubscriberStarter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="by.nick.activemq.example.task1.durablesubscriber.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PublisherStarter (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <option name="ACTIVE_PROFILES" />
+      <module name="activemq-pubsub-example.task3.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="by.nick.activemq.example.task3.publisher.PublisherStarter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="by.nick.activemq.example.task3.publisher.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
+        <option name="credential" />
+        <option name="region" />
+        <option name="useCurrentConnection" value="false" />
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PublisherStarter" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="activemq-pubsub-example.task1.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="by.nick.activemq.example.task1.publisher.PublisherStarter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="by.nick.activemq.example.task1.publisher.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SubscriberStarter consumer 1" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" />
+      <module name="activemq-pubsub-example.task3.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="by.nick.activemq.example.task3.subscriber.SubscriberStarter" />
+      <option name="VM_PARAMETERS" value="-Dactivemq.consumer.name=instance-1 -Dserver.port=8081" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="by.nick.activemq.example.task3.subscriber.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
+        <option name="credential" />
+        <option name="region" />
+        <option name="useCurrentConnection" value="false" />
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SubscriberStarter consumer 2" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" />
+      <module name="activemq-pubsub-example.task3.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="by.nick.activemq.example.task3.subscriber.SubscriberStarter" />
+      <option name="VM_PARAMETERS" value="-Dactivemq.consumer.name=instance-2 -Dserver.port=8082" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="by.nick.activemq.example.task3.subscriber.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
+        <option name="credential" />
+        <option name="region" />
+        <option name="useCurrentConnection" value="false" />
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.ReplierStarter" />
+      <item itemvalue="Application.SenderStarter" />
+      <item itemvalue="Spring Boot.SubscriberStarter consumer 1" />
+      <item itemvalue="Spring Boot.SubscriberStarter consumer 2" />
+      <item itemvalue="Spring Boot.DurableSubscriberStarter" />
+      <item itemvalue="Spring Boot.PublisherStarter" />
+      <item itemvalue="Spring Boot.PublisherStarter (1)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.PublisherStarter (1)" />
+        <item itemvalue="Spring Boot.PublisherStarter" />
+        <item itemvalue="Spring Boot.DurableSubscriberStarter" />
+        <item itemvalue="Application.SenderStarter" />
+        <item itemvalue="Application.ReplierStarter" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -32,8 +293,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1660472112103</updated>
+      <workItem from="1661079674062" duration="5318000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -45,5 +310,21 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/task1/src/main/java/by/nick/activemq/example/task1/publisher/TopicPublisher.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/task2/src/main/java/by/nick/acrivemq/example/task2/sender/Sender.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -17,7 +17,6 @@ import static by.nick.activemq.example.task1.config.TopicConstants.TOPIC_NAME;
 public class TopicSubscriber {
 
     private final ConnectionFactory connectionFactory;
-    private final TopicMessageListener messageListener;
     private Connection connection;
 
     @PostConstruct
@@ -28,7 +27,7 @@ public class TopicSubscriber {
         Session session = connection.createSession(false, Session.AUTO_ACKNOWLEDGE);
         Destination topic = session.createTopic(TOPIC_NAME);
         MessageConsumer consumer = session.createConsumer(topic);
-        consumer.setMessageListener(messageListener);
+        consumer.setMessageListener(new TopicMessageListener("nonDurableSubscriber.txt"));
     }
 
     @PreDestroy
